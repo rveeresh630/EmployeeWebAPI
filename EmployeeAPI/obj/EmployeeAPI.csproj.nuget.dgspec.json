@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VeereshR\\source\\repos\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj": {}
+    "C:\\Users\\VeereshR\\EmployeeWebAPI\\EmployeeWebAPI\\EmployeeAPI\\EmployeeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VeereshR\\source\\repos\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj": {
+    "C:\\Users\\VeereshR\\EmployeeWebAPI\\EmployeeWebAPI\\EmployeeAPI\\EmployeeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VeereshR\\source\\repos\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\VeereshR\\EmployeeWebAPI\\EmployeeWebAPI\\EmployeeAPI\\EmployeeAPI.csproj",
         "projectName": "EmployeeAPI",
-        "projectPath": "C:\\Users\\VeereshR\\source\\repos\\EmployeeAPI\\EmployeeAPI\\EmployeeAPI.csproj",
+        "projectPath": "C:\\Users\\VeereshR\\EmployeeWebAPI\\EmployeeWebAPI\\EmployeeAPI\\EmployeeAPI.csproj",
         "packagesPath": "C:\\Users\\VeereshR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VeereshR\\source\\repos\\EmployeeAPI\\EmployeeAPI\\obj\\",
+        "outputPath": "C:\\Users\\VeereshR\\EmployeeWebAPI\\EmployeeWebAPI\\EmployeeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VeereshR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.15, )"
